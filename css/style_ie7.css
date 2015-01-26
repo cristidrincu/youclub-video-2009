@@ -1,0 +1,3439 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:18px;
+}
+
+.clearFloats {
+	clear:both;
+}
+
+
+/*css code for header top main menu*/
+
+.containerMainHeaderMenu {
+		width:960px;
+		height:57px;
+		margin-left:auto;
+		margin-right:auto;
+		background:url(images/back_header_menu/back_header_menu.jpg) no-repeat;
+		font-size:10px;
+	}
+	
+	.wrapperLogo {
+		width:56px;
+		height:55px;
+		float:left;
+		margin-left:5px;
+		margin-top:2px;
+		float:left;
+	}
+	
+	.wrapperAllTimeClubbingFlags {
+		width:60px;
+		float:left;
+		padding-top:8px;
+		text-align:center;
+	}
+	
+		.LangFlags {
+			width:inherit;
+			padding-top:3px;
+		}
+		
+			.LangFlags ul {
+				margin:0;
+				padding:0;
+				display:inline;
+				list-style:none;
+			}
+			
+				.LangFlags ul li {
+					display:inline;
+				}
+				
+	.mainMenu {
+		width:830px;
+		float:left;
+		
+	}
+	
+	.mainMenu .btnVideos a, .mainMenu .btnSounds a, .mainMenu .btnPictures a, .mainMenu .btnCommunity a, .mainMenu .btnBlog a, .mainMenu .btnWebTv a, .mainMenu .btnClubs a, .mainMenu .btnUpload a, .mainMenu .btnLoginRegister a {
+		text-decoration:none;
+		color:#fff;
+		font-size:11px;
+		font-weight:bold;
+	}
+	
+	.mainMenu .btnLoginRegister a {
+		position:relative;
+		top:-3px;
+	}
+	
+	.mainMenu .btnLoginRegister img {
+		position:relative;
+		top:-3px;
+	}
+	
+	.mainMenu .btnVideos a:hover, .mainMenu .btnSounds a:hover, .mainMenu .btnPictures a:hover, .mainMenu .btnCommunity a:hover, .mainMenu .btnBlog a:hover, .mainMenu .btnWebTv a:hover, .mainMenu .btnClubs a:hover, .mainMenu .btnUpload a:hover, .mainMenu .btnLoginRegister a:hover {
+		text-decoration:underline;
+	}
+		
+		.mainMenu .btnVideos {
+			width:50px;
+			float:left;
+			padding-top:20px;
+			margin-left:50px;
+		}
+		
+		.mainMenu .btnSounds {
+			width:50px;
+			float:left;
+			padding-top:20px;
+			margin-left:35px;
+		}
+		
+		.mainMenu .btnPictures {
+			width:55px;
+			float:left;
+			padding-top:20px;
+			margin-left:35px;
+		}
+		
+		.mainMenu .btnCommunity {
+			width:60px;
+			float:left;
+			padding-top:20px;
+			margin-left:25px;
+		}
+		
+		.mainMenu .btnBlog {
+			width:40px;
+			float:left;
+			padding-top:20px;
+			margin-left:40px;
+		}
+		
+		.mainMenu .btnWebTv {
+			width:45px;
+			float:left;
+			padding-top:20px;
+			margin-left:48px;
+		}
+		
+		.mainMenu .btnClubs {
+			width:40px;
+			float:left;
+			padding-top:20px;
+			margin-left:38px;
+		}
+		
+		.mainMenu .btnUpload {
+			width:45px;
+			float:left;
+			padding-top:20px;
+			margin-left:43px;
+		}
+		
+		.mainMenu .btnLoginRegister {
+			width:66px;
+			float:left;
+			padding-top:5px;
+			margin-left:30px;
+			text-align:center;
+		}
+		
+			.mainMenu .btnLoginRegister img {
+				padding-top:4px;
+				padding-bottom:4px;
+			}
+
+			
+			
+/*css code for logged in*/
+
+.mainMenu .btnUserDetails {
+			width:66px;
+			float:left;
+			padding-top:3px;
+			margin-left:30px;
+			text-align:center;
+		}
+		
+			
+			.mainMenu .btnUserDetails ul {
+				margin:0;
+				padding:0;
+				display:inline;
+				list-style:none;
+			}
+			
+				.mainMenu .btnUserDetails ul li {
+					display:inline;
+				}
+				
+				.mainMenu .btnUserDetails ul li img {
+					position:relative;
+					top:2px;
+				}
+				
+				.mainMenu .btnUserDetails p {
+					margin:0;
+					padding:0;
+				}
+				
+				.mainMenu .btnUserDetails a.adminLink {
+					text-decoration:none;
+					color:#FF0000;
+				}
+				
+				.mainMenu .btnUserDetails a.adminLink:hover {
+					text-decoration:underline;
+				}
+				
+				.mainMenu .btnUserDetails a.userLogout {
+					text-decoration:none;
+					color:#fff;
+				}
+				
+				.mainMenu .btnUserDetails a.userLogout:hover {
+					text-decoration:underline;
+				}
+				
+				
+/*css code for log in page*/
+
+.containerFormLogin {
+	width:740px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+	.leftColumnContainerFormLogin, .leftColumnContainerRegister {
+		width:340px;
+		float:left;
+		margin-top:15px;
+	} 
+	
+		.wrapperTextFieldFormLogIn {
+			width:340px;
+			margin-bottom:5px;
+		}
+		
+			label.labelFormLogIn {
+				width:70px;
+				float:left;
+				text-align:right;
+				color:#fff;
+			}
+			
+			#textFieldFormLogIn {
+				width:190px;
+				height:20px;
+				float:left;
+				border:none;
+				margin-left:5px;
+			}
+			
+	.wrapperBtnLogInForgotPassword {
+		width:inherit;
+		margin-top:15px;
+	}
+	
+		.wrapperBtnLogInForgotPassword a {
+			color:#fff;
+			float:left;
+			text-decoration:none;
+			position:relative;
+			top:10px;
+			padding-left:10px;
+		}
+		
+		.wrapperBtnLogInForgotPassword a:hover {
+			text-decoration:underline;
+		}
+		
+	.rightColumnContainerFormLogin {
+		width:300px;
+		float:left;
+		margin-left:35px;
+	}
+	
+		.rightColumnContainerFormLogin h1, .rightColumnContainerFormLogin p {
+			margin:0;
+			padding:0;
+			color:#fff;
+		}
+		
+		.rightColumnContainerFormLogin h1 {
+			font-size:14px;
+			padding-top:5px;
+		}
+		
+		.rightColumnContainerFormLogin p {
+			padding-top:15px;
+		}
+		
+		.rightColumnContainerFormLogin a {
+			color:#fff;
+		}
+		
+/*css code for register page*/
+
+.wrapperBtnLogInForgotPassword {
+	width:inherit;
+}
+	
+	label.labelFormLogIn {
+		width:130px;
+		float:left;
+		text-align:right;
+		color:#fff;
+	}
+	
+	#checkBoxAcknowledgeTermsConditions {
+		float:left;
+		margin-right:10px;
+	}
+	
+	label.labelFormRegisterTermsConditions {
+		width:300px;
+		float:left;
+		color:#fff;
+	}
+	
+		label.labelFormRegisterTermsConditions a {
+			color:#fff;
+		}
+
+				
+/*ends css code for header top main menu*/
+
+	.containerHeaderTop {
+		width:100%;
+		height:114px;
+		background:url(images/back_header_top/back_header_top.jpg) repeat-x top center;
+	}
+	
+		.wrapperMainMenu, .wrapperSubMenuSearchForm {
+			width:980px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		
+			.wrapperUserPersonalMenu {
+				width:600px;
+				float:left;
+				padding-top:13px;
+			}
+			
+						
+			
+			.wrapperSearchForm {
+				width:340px;
+				float:right;
+				position:relative;
+				top:18px;
+			}
+			
+				.wrapperTextFieldSearchForm {
+					width:175px;
+					float:left;
+					margin-right:5px;
+				}
+				
+					#textFieldSearch, #dropDownList {
+						border:none;
+						border:1px solid #9aa0a0;
+					}
+					
+					#textFieldSearch {
+						width:175px;
+					}
+					
+					#dropDownList {
+						width:75px;
+					}
+					
+				.wrapperListSearchForm {
+					width:75px;
+					float:left;
+					margin-right:5px;
+					margin-left:3px;
+				}
+				
+				.wrapperSubmitBtnSearchForm {
+					width:70px;
+					height:35px;
+					float:left;
+					background:url(images/search_form/back_submit_btn.png) no-repeat;
+					position:relative;
+					top:-5px;
+					margin-left:1px;
+				}
+				
+					#submitBtnSearchForm {
+						width:inherit;
+						border:none;
+						background:none;
+						color:#fff;
+						position:relative;
+						top:5px;
+						font-size:12px;
+					}
+				
+			
+.containerMainBackgroundSplashes {
+	width:100%;
+	height:100%;
+	background:url(images/main_back/main_back.jpg) no-repeat top center;
+}
+
+	.mainBox {
+		width:980px;
+		height:100%;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:60px;
+	}
+	
+		.wrapperMainFeaturedVideo {
+			width:inherit;
+			margin-bottom:45px;
+		}
+		
+			.featuredVideo {
+				width:614px;
+				height:377px;
+				float:left;
+				background-color:#48dde8;
+				padding-top:5px;
+			}
+			
+				.wrapperVideoFileFeaturedVideo {
+					width:601px;
+					height:367px;
+					margin-left:auto;
+					margin-right:auto;
+				}
+				
+			.wrapperDescriptionFeaturedVideo {
+				width:362px;
+				float:left;
+			}
+			
+				.wrapperHeaderFeaturedVideo {
+					width:362px;
+					height:109px;
+					position:relative;
+					top:25px;
+				}
+				
+				.wrappertTextFeaturedVideo {
+					width:362px;
+					padding-top:40px;
+				}
+				
+					.wrappertTextFeaturedVideo h1, .wrappertTextFeaturedVideo h5, .wrappertTextFeaturedVideo p {
+						margin:0;
+						padding:0;
+						color:#9c9a9a;
+						margin-left:30px;
+					}
+					
+					.wrappertTextFeaturedVideo h1 {
+						font-size:14px;
+					}
+					
+					.wrappertTextFeaturedVideo h5 {
+						font-size:10px;
+						margin-bottom:10px;
+					}
+					
+					.wrappertTextFeaturedVideo p {
+						margin-right:20px;
+					}
+					
+	.wrapperMainLatestVideos {
+		width:inherit;
+		margin-bottom:30px;
+	}
+	
+		.wrapperHeaderLatestVideos {
+			width:inherit;
+			height:55px;
+			margin-bottom:20px;
+		}
+		
+		.wrapperScrollerLatestVideos {
+			width:inherit;
+		}
+		
+			.scroller {
+				width:inherit;
+			}
+			
+				.prevArrow, .nextArrow {
+					width:33px;
+					height:33px;
+					float:left;
+					position:relative;
+					top:60px;
+				}
+				
+				.prevArrow {
+					margin-right:20px;
+				}
+				
+				.nextArrow {
+					margin-left:20px;
+				}
+				
+				.containerLatestVideo {
+					width:164px;
+					height:168px;
+					float:left;
+					padding-top:5px;
+					margin-right:5px;
+					background:url(images/scroller/back_container_latest_video.png) no-repeat;
+				}
+				
+					.picLatestVideo {
+						width:150px;
+						height:94px;
+						margin-left:auto;
+						margin-right:auto;
+						margin-bottom:10px;
+					}
+					
+					.descriptionLatestVideo {
+						width:inherit;
+						text-align:center;
+					}
+					
+						.descriptionLatestVideo h1 {
+							margin:0;
+							padding:0;
+							font-size:12px;
+						}
+						
+							.descriptionLatestVideo h1 a {
+								color:#fff;
+								text-decoration:none;
+							}
+							
+							.descriptionLatestVideo h1 a:hover {
+								text-decoration:underline;
+							}
+							
+		
+	.containerNewPictures, .containerTopRated {
+		width:inherit;
+		height:210px;
+	}	
+							
+	.containerNewPictures {
+		background:url(images/new_pictures/back_main_new_pics_en.jpg) no-repeat;
+	}
+	
+		.wrapperMainNewPictures {
+			width:880px;
+			float:right;
+		}
+	
+		.wrapperNewPicture {
+			width:210px;
+			margin-top:12px;
+			text-align:center;
+			float:left;
+			margin-right:5px;
+		}
+		
+			.wrapperNewPicture img {
+				margin-bottom:10px;
+			}
+		
+			.wrapperNewPicture p {
+				margin:0;
+				padding:0;
+				font-weight:bold;
+			}
+			
+				.wrapperNewPicture p a {
+					color:#fff;
+					text-decoration:none;
+				}
+				
+				.wrapperNewPicture p a:hover {
+					text-decoration:underline;
+				}
+	
+	.containerTopRated {
+		background:url(images/top_rated/back_main_top_rated_en.jpg) no-repeat;
+		margin-bottom:30px;
+	}
+	
+		.wrapperMainTopRated {
+			width:880px;
+			float:right;
+		}
+	
+			.wrapperTopRatedItem {
+				width:210px;
+				margin-top:12px;
+				text-align:center;
+				float:left;
+				margin-right:5px;
+			}
+			
+				.wrapperTopRatedItem img {
+					margin-bottom:10px;
+				}
+			
+				.wrapperTopRatedItem p {
+					margin:0;
+					padding:0;
+					font-weight:bold;
+				}
+				
+					.wrapperTopRatedItem p a {
+						color:#fff;
+						text-decoration:none;
+					}
+					
+					.wrapperTopRatedItem p a:hover {
+						text-decoration:underline;
+					}
+					
+	.containerLatestStuff {
+		width:inherit;
+		margin-bottom:15px;
+	}
+	
+		.wrapperContentNewsLatestStuff {
+			width:215px;
+			float:left;
+			margin-left:15px;
+			margin-right:15px;
+		}
+		
+			.headerTitleNewsLatestStuff {
+				width:inherit;
+				height:48px;
+				background:url(images/latest_news/back_header_latest_news.png) no-repeat;
+			}
+			
+				.headerTitleNewsLatestStuff h1, .headerTitleLatestMessagesLatestStuff h1, .headerTitleLatestCommentsLatestStuff h1, .headerTitleNewSoundsLatestStuff h1 {
+					margin:0;
+					padding:0;
+					color:#fff;
+					font-size:24px;
+					font-weight:normal;
+					position:relative;
+					top:13px;
+				}
+				
+				.headerTitleNewsLatestStuff h1, .headerTitleNewSoundsLatestStuff h1 {
+					margin-left:15px;
+				}
+				
+		.wrapperContentLatestMessagesLatestStuff, .wrapperContentLatestCommentsLatestStuff, .wrapperContentNewSoundsLatestStuff {
+			width:227px;
+			float:left;
+			margin-right:15px;
+		}
+		
+			.headerTitleLatestMessagesLatestStuff, .headerTitleLatestCommentsLatestStuff, .headerTitleNewSoundsLatestStuff {
+				width:inherit;
+				height:48px;
+				background:url(images/latest_messages/back_latest_messages.png) no-repeat;
+				text-align:center;
+			}
+			
+			.headerTitleNewSoundsLatestStuff {
+				text-align:left;
+			}
+			
+			
+		.contentTextLatestStuff {
+			width:inherit;
+			margin-top:17px;
+		}
+		
+			.contentTextLatestStuff h1, .contentTextLatestStuff h5, .contentTextLatestStuff p {
+				margin:0;
+				padding:0;
+				color:#7d7d7d;
+				margin-left:15px;
+				margin-right:10px;
+			}
+			
+			.contentTextLatestStuff h1 {
+				font-size:14px;
+			}
+			
+			.contentTextLatestStuff h5 {
+				font-size:12px;
+				font-weight:normal;
+				margin-bottom:10px;
+			}
+			
+			.contentTextLatestStuff img {
+				float:left;
+				margin-left:15px;
+				margin-right:15px;
+				margin-bottom:10px;
+			}
+			
+			.containerReadMoreLinksLatestStuff {
+				width:inherit;
+			}
+			
+				.linkReadMoreLatestStuff {
+					width:227px;
+					float:left;
+					margin-right:15px;
+				}
+				
+				.linkReadMoreLatestStuffLatestMessages, .linkReadMoreLatestStuffLatestComments, .linkReadMoreLatestStuffNewSounds {
+					width:227px;
+					float:left;
+					margin-left:18px;
+				}
+				
+				.linkReadMoreLatestStuffNews {
+					width:212px;
+					float:left;
+					margin-left:30px;
+				}
+				
+					.linkReadMoreLatestStuff ul, .linkReadMoreLatestStuffNews ul, .linkReadMoreLatestStuffLatestMessages ul, .linkReadMoreLatestStuffLatestComments ul, .linkReadMoreLatestStuffNewSounds ul {
+						margin:0;
+						padding:0;
+						list-style:none;
+						display:inline;
+					}
+					
+						.linkReadMoreLatestStuff ul li, .linkReadMoreLatestStuffNews ul li, .linkReadMoreLatestStuffLatestMessages ul li, .linkReadMoreLatestStuffLatestComments ul li, .linkReadMoreLatestStuffNewSounds ul li {
+							display:inline;
+						}
+						
+							.linkReadMoreLatestStuff ul li img, .linkReadMoreLatestStuffNews ul li img, .linkReadMoreLatestStuffLatestMessages ul li img, .linkReadMoreLatestStuffLatestComments ul li img, .linkReadMoreLatestStuffNewSounds ul li img {
+								position:relative;
+								top:2px;
+							}
+						
+							.linkReadMoreLatestStuff ul li a, .linkReadMoreLatestStuffNews ul li a, .linkReadMoreLatestStuffLatestMessages ul li a, .linkReadMoreLatestStuffLatestComments ul li a, .linkReadMoreLatestStuffNewSounds ul li a {
+								color:#6b84c3;
+								font-weight:bold;
+								text-decoration:none;
+							}
+							
+							.linkReadMoreLatestStuff ul li a:hover, .linkReadMoreLatestStuffNews ul li a:hover, .linkReadMoreLatestStuffLatestMessages ul li a:hover, .linkReadMoreLatestStuffLatestComments ul li a:hover, .linkReadMoreLatestStuffNewSounds ul li a:hover {
+								text-decoration:underline;
+							}
+							
+							
+.mainContainerFooter {
+	width:100%;
+	height:100%;
+	background-color:#6ba9b4;
+	padding-bottom:45px;
+}
+
+	.thinLineTopFooter {
+		width:100%;
+		height:4px;
+		background-color:#43d2dd;
+	}
+
+	.wrapperMainInfoFooter {
+		width:980px;
+		margin-left:auto;
+		margin-right:auto;
+		padding-top:35px;
+	}
+	
+		.youClubVideoFooterColumn, .programsFooterColumn, .helpFooterColumn, .tagsFooterColumn {
+			float:left;
+		}
+	
+		.youClubVideoFooterColumn {
+			width:245px;
+			margin-right:25px;
+		}
+		
+		.programsFooterColumn {
+			width:165px;
+			margin-right:25px;
+		}
+		
+		.helpFooterColumn {
+			width:175px;
+			margin-right:25px;
+		}
+		
+		.tagsFooterColumn {
+			width:300px;
+		}
+		
+			.headerFooterColumn, .menuListFooterColumn {
+				width:inherit;
+			}
+		
+			.headerFooterColumn {
+				margin-bottom:15px;
+			}
+			
+			.menuListFooterColumn ul {
+				margin:0;
+				padding:0;
+				list-style:none;
+			}
+				
+				.menuListFooterColumn ul li a {
+					color:#fff;
+					text-decoration:none;
+					font-size:14px;
+				}
+				
+				.menuListFooterColumn ul li a:hover {
+					text-decoration:underline;
+				}
+				
+	.containerFooterCredits {
+		width:100%;
+		background-color:#30ceda;
+		padding-top:20px;
+		padding-bottom:20px;
+	}
+	
+		.wrapperMenuFooterCredits {
+			width:980px;
+			margin-left:auto;
+			margin-right:auto;
+			text-align:center;
+			
+		}
+		
+			.wrapperMenuFooterCredits ul {
+				margin:0;
+				padding:0;
+				list-style:none;
+				display:inline;
+			}
+			
+				.wrapperMenuFooterCredits ul li {
+					display:inline;
+					margin-left:3px;
+					margin-right:3px;
+				}
+				
+					.wrapperMenuFooterCredits ul li a {
+						color:#fff;
+						font-size:14px;
+						text-decoration:none;
+					}
+					
+					.wrapperMenuFooterCredits ul li a:hover {
+						text-decoration:underline;
+					}
+			
+					.wrapperMenuFooterCredits p {
+						margin:0;
+						padding:0;
+						color:#fff;
+						padding-top:10px;
+					}
+					
+/*css code for videos_page*/
+
+.containerMainMediaElements {
+	width:inherit;
+	height:100%;
+	margin-bottom:35px;
+}
+
+	.containerHeaderTopVideosPage {
+		width:inherit;
+		height:171px;
+		background:url(images/videos_page/back_header_videos_page.png) no-repeat top center;
+	}
+	
+		.textHeaderTopMediaElements {
+			width:inherit;
+			margin-left:35px;
+			padding-top:35px;
+		}
+		
+	.containerMiddleContentMediaElements {
+		width:inherit;
+		height:100%;
+		background:url(images/videos_page/back_middle_content_media_elements.png) repeat-y;
+	}
+	
+		.wrapperMainMediaElementsBoxes, .wrapperMainMyInboxElementsBoxes {
+			width:895px;
+			margin-left:auto;
+			margin-right:auto;
+			padding-bottom:10px;
+		}
+		
+			.containerSetOfMediaElements {
+				width:inherit;
+				height:100%;
+				/*margin-bottom:2px;*/
+				
+			}
+			
+			.headerTopSetOfMediaElements, .headerBottomSetOfMediaElements {
+					width:894px;
+					height:15px;
+				}
+			
+				.headerTopSetOfMediaElements {
+					background:url(images/videos_page/header_top_set_media_elements.png) no-repeat;
+				}
+				
+				.headerBottomSetOfMediaElements {
+					background:url(images/videos_page/header_bottom_set_media_elements.png) no-repeat;
+				}
+				
+				
+				.headerMiddleSetOfMediaElements {
+					width:894px;
+					height:100%;
+					background:url(images/videos_page/header_middle_set_media_elements.png) repeat-y;
+				}
+			
+				.wrapperOneMediaElement {
+					width:171px;
+					float:left;
+					margin-left:6px;
+					padding-top:8px;
+				}
+				
+					.thumbnailMediaElement {
+						width:inherit;
+						height:124px;
+					}
+					
+					.infoMediaElement {
+						width:inherit;
+						height:100%;
+						padding-top:6px;
+					}
+					
+						.infoMediaElement ul {
+							margin:0;
+							padding:0;
+							list-style:none;
+							color:#fff;
+							margin-left:15px;
+						}
+						
+							.infoMediaElement ul li a {
+								color:#fff;
+								text-decoration:none;
+							}
+							
+							.infoMediaElement ul li a:hover {
+								text-decoration:underline;
+							}
+							
+				.headerTopInfoMediaElement, .bottomTopInfoMediaElement {
+						width:171px;
+						height:15px;
+					}
+					
+					.headerTopInfoMediaElement {
+						background:url(images/videos_page/header_top_info_media_element.jpg) no-repeat;
+					}
+					
+					.bottomTopInfoMediaElement {
+						background:url(images/videos_page/header_bottom_info_media_element.jpg) no-repeat;
+					}
+					
+					.middleTopInfoMediaElement {
+						width:171px;
+						height:100%;
+						background:url(images/videos_page/header_middle_info_media_element.jpg) repeat-y;
+					}
+							
+			.containerPageNavi {
+				width:450px;
+				float:right;
+				padding-top:25px;
+			}
+			
+				.pages {
+					width:80px;
+					height:25px;
+					background:url(images/page_navi/back_next.png) no-repeat;
+					text-align:center;
+					float:left;
+					margin-right:5px;
+				}
+				
+					.pages p, .pages a {
+						margin:0;
+						padding:0;
+						color:#fff;
+						font-size:14px;
+						padding-top:3px;
+					}
+					
+					.pages a {
+						text-decoration:none;
+						position:relative;
+						top:3px;
+					}
+					
+					.pages a:hover {
+						text-decoration:underline;
+					}
+					
+				.activePage, .inactivePage {
+					width:27px;
+					height:25px;
+					float:left;
+					text-align:center;
+					margin-right:5px;
+				}
+				
+				.activePage {
+					background:url(images/page_navi/back_active_page.png) no-repeat;
+				}
+				
+				.inactivePage {
+					background:url(images/page_navi/back_inactive_page.png) no-repeat;
+				}
+				
+					.activePage a, .inactivePage a, .inactivePageLargeNumbers a {
+						color:#fff;
+						text-decoration:none;
+						font-size:14px;
+						position:relative;
+						top:3px;
+					}
+					
+					.inactivePage a:hover, .inactivePageLargeNumbers a:hover {
+						text-decoration:underline;
+					}
+					
+				.breakPointsPageNavi {
+					width:35px;
+					float:left;
+					margin-right:20px;
+				}
+				
+					.breakPointsPageNavi p {
+						margin:0;
+						padding:0;
+						font-size:24px;
+						color:#17acba;
+						position:relative;
+						top:6px;
+					}
+					
+				.inactivePageLargeNumbers {
+					width:49px;
+					height:25px;
+					float:left;
+					text-align:center;
+					margin-right:5px;
+					background:url(images/page_navi/back_inactive_page_large_numbers.png) no-repeat;
+				}	
+					
+			
+	.containerBottomBackgroundMediaElements {
+		width:inherit;
+		height:27px;
+		background:url(images/videos_page/back_bottom_media_elements.png) no-repeat;
+	}
+	
+	.containerOtherVideoCategories {
+		width:910px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:35px;
+	}
+	
+		.headerOtherCategories {
+			width:inherit;
+			height:100px;
+			margin-bottom:15px;
+		}
+		
+			.wrapperCategoriesTypes {
+				width:179px;
+				height:147px;
+				float:left;
+				background:url(images/other_media_categories/back_categories_types.jpg) no-repeat;
+				margin-right:2px;
+			}
+			
+				.wrapperCategoriesTypes ul {
+					margin:0;
+					padding:0;
+					list-style:none;
+					margin-left:15px;
+					position:relative;
+					top:10px;
+				}
+				
+					.wrapperCategoriesTypes ul li {
+						margin-bottom:3px;
+					}
+				
+					.wrapperCategoriesTypes ul li a {
+						color:#000;
+						font-weight:bold;
+						text-decoration:none;
+					}
+					
+					.wrapperCategoriesTypes ul li a:hover {
+						text-decoration:underline;
+					}
+					
+					
+/*css code for sounds_page*/
+
+.containerHeaderTopSoundsPage {
+	width:inherit;
+	height:171px;
+	background:url(images/sounds_page/back_header_sounds_page.png) no-repeat top center;
+}
+
+	.containerOtherSoundCategories {
+		width:910px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:35px;
+	}
+	
+/*css code for pictures_page*/
+
+.containerHeaderTopPicturesPage {
+	width:inherit;
+	height:171px;
+	background:url(images/pictures_page/back_header_pictures_page.png) no-repeat top center;
+}
+
+	.containerOtherPictureCategories {
+		width:910px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:35px;
+	}
+	
+	
+	
+/*css code for community_page*/
+
+.containerUniversalMainRestOfPages {
+	width:inherit;
+	height:100%;
+	margin-bottom:35px;
+}
+
+	.containerMainCommunityTopRatedUsers {
+		width:inherit;
+	}
+	
+		.headerTopRatedUsers {
+			width:inherit;
+			height:135px;
+			padding-top:25px;
+		}
+		
+			.headerTopRatedUsers img {
+				float:left;
+				margin-right:10px;
+				
+			}
+			
+			.linkAllTopRatedUsers {
+				width:335px;
+				float:left;
+			}
+			
+				.linkAllTopRatedUsers a {
+					color:#ff640b;
+					font-size:14px;
+					font-weight:bold;
+					position:relative;
+					top:110px;
+				}
+				
+			.wrapperFirstPlaceTopRatedUsers {
+				width:175px;
+				float:left;
+			}
+			
+				.wrapperFirstPlaceTopRatedUsers img {
+					float:none;
+					position:relative;
+					top:16px;
+				}
+				
+		.containerTopRatedUsers {
+			width:inherit;
+			height:100%;
+			margin-top:15px;
+		}
+		
+			.topBackContainerTopRatedUsers, .bottomBackContainerTopRatedUsers, .topBackContainerSearchResults, .bottomBackContainerSearchResults, .topBackContainerAllGroups, .bottomBackContainerAllGroups, .topBackContainerGuestbookMyProfile, .bottomBackContainerGuestbookMyProfile, .topBackContainerProfilePage, .bottomBackContainerProfilePage,
+			.topBackContainerEditFriendList, .bottomBackContainerEditFriendList, .topBackContainerChangeUserDetail, .bottomBackContainerChangeUserDetail, .topBackContainerMakeGroup, .bottomBackContainerMakeGroup, .topBackContainerMediaUpload, .bottomBackContainerMediaUpload, .topBackContainerMyHistory, .bottomBackContainerMyHistory, .topBackContainerMyBookmarks, .bottomBackContainerMyBookmarks, .topBackContainerGroupDetailsPage, .bottomBackContainerGroupDetailsPage, .topBackContainerMyInbox, .bottomBackContainerMyInbox  {
+				width:inherit;
+				height:23px;
+			}
+			
+			.topBackContainerTopRatedUsers, .topBackContainerSearchResults, .topBackContainerAllGroups, .topBackContainerProfilePage, .topBackContainerEditFriendList, .topBackContainerChangeUserDetail, .topBackContainerMakeGroup, .topBackContainerGuestbookMyProfile, .topBackContainerMyHistory, .topBackContainerMyBookmarks, .topBackContainerMediaUpload {
+				background:url(images/community_page/top_back_universal.png) no-repeat;
+			}
+			
+			.bottomBackContainerTopRatedUsers, .bottomBackContainerSearchResults, .bottomBackContainerAllGroups, .bottomBackContainerProfilePage, .bottomBackContainerEditFriendList, .bottomBackContainerChangeUserDetail, .bottomBackContainerMakeGroup, .bottomBackContainerGuestbookMyProfile, .bottomBackContainerMyHistory, .bottomBackContainerMyBookmarks, .bottomBackContainerMediaUpload {
+				background:url(images/community_page/bottom_back_universal.png) no-repeat;
+			}
+			
+			.middleBackContainerTopRatedUsers, .middleBackContainerSearchResults, .middleBackContainerAllGroups, .middleBackContainerGuestbookMyProfile, .middleBackContainerProfilePage, .middleBackContainerEditFriendList, .middleBackContainerChangeUserDetail, .middleBackContainerMakeGroup, .middleBackContainerMyHistory, .middleBackContainerMyBookmarks, .middleBackContainerMediaUpload, .middleBackContainerGroupDetailsPage, .middleBackContainerMyInbox {
+				width:inherit;
+				height:100%;
+				background:url(images/community_page/middle_back_universal.jpg) repeat-y top center;
+			}
+			
+			.middleBackContainerMediaUpload h1, .middleBackContainerMediaUpload p {
+				margin:0;
+				padding:0;
+				color:#fff;
+			}
+			
+			.middleBackContainerMediaUpload h1 {
+				font-size:14px;
+				padding-bottom:15px;
+			}
+			
+			.middleBackContainerMediaUpload p {
+				padding-bottom:10px;
+			}
+			
+			.middleBackContainerMediaUpload p a {
+				color:#fff;
+			}
+			
+			.middleBackContainerGuestbookMyProfile h1 {
+				margin:0;
+				padding:0;
+				font-size:16px;
+				margin-left:10px;
+				padding-bottom:10px;
+			}
+			
+				.containerTypesOfUsers {
+					width:inherit;
+				}
+				
+					.wrapperTypeOfUserCommunity {
+						width:235px;
+						float:left;
+						margin-left:10px;
+						margin-bottom:5px;
+					}
+					
+						img.userAvatar {
+							float:left;
+							margin-right:5px;
+						}
+						
+						.wrapperTypeOfUserCommunity ul {
+							margin:0;
+							padding:0;
+							list-style:none;
+							float:left;
+							position:relative;
+							top:3px;
+						}
+						
+							.wrapperTypeOfUserCommunity ul li a {
+								color:#000;
+								text-decoration:underline;
+							}
+							
+	.containerMainCommunityNewUsers {
+		width:inherit;
+	}
+	
+		.headerNewUsers {
+			width:inherit;
+			height:135px;
+			padding-top:25px;
+		}
+		
+			.headerNewUsers img {
+				float:left;
+				margin-right:10px;
+				
+			}
+			
+		.linkAllNewUsers {
+				width:250px;
+				float:left;
+			}
+			
+				.linkAllNewUsers a {
+					color:#ff640b;
+					font-size:14px;
+					font-weight:bold;
+					position:relative;
+					top:110px;
+				}
+				
+		.wrapperWelcomeNewUsers {
+				width:250px;
+				float:left;
+			}
+			
+				.wrapperWelcomeNewUsers img {
+					float:none;
+					position:relative;
+					top:37px;
+				}
+				
+				
+		.containerNewUsers {
+			width:inherit;
+			height:100%;
+			margin-top:15px;
+		}
+		
+			.topBackContainerNewUsers, .bottomBackContainerNewUsers {
+				width:inherit;
+				height:23px;
+			}
+			
+			.topBackContainerNewUsers {
+				background:url(images/community_page/top_back_universal.png) no-repeat;
+			}
+			
+			.bottomBackContainerNewUsers {
+				background:url(images/community_page/bottom_back_universal.png) no-repeat;
+			}
+			
+			.middleBackContainerNewUsers {
+				width:inherit;
+				height:100%;
+				background:url(images/community_page/middle_back_universal.jpg) repeat-y top center;
+			}
+			
+			
+/*css for community_page > most active users*/
+			
+	.containerMainCommunityActiveUsers {
+		width:inherit;
+		margin-bottom:50px;
+	}
+	
+		.headerActiveUsers {
+			width:inherit;
+			height:135px;
+			padding-top:25px;
+		}
+		
+			.headerActiveUsers img {
+				float:left;
+				margin-right:10px;
+				
+			}
+			
+		.linkAllActiveUsers {
+				width:250px;
+				float:left;
+			}
+			
+				.linkAllActiveUsers a {
+					color:#ff640b;
+					font-size:14px;
+					font-weight:bold;
+					position:relative;
+					top:110px;
+				}
+				
+		.wrapperBodyBuilderActiveUsers {
+				width:250px;
+				float:left;
+			}
+			
+				.wrapperBodyBuilderActiveUsers img {
+					float:none;
+					position:relative;
+					top:20px;
+				}
+				
+				
+		.containerActiveUsers {
+			width:inherit;
+			height:100%;
+			margin-top:15px;
+		}
+		
+			.topBackContainerActiveUsers, .bottomBackContainerActiveUsers {
+				width:inherit;
+				height:23px;
+			}
+			
+			.topBackContainerActiveUsers {
+				background:url(images/community_page/top_back_universal.png) no-repeat;
+			}
+			
+			.bottomBackContainerActiveUsers {
+				background:url(images/community_page/bottom_back_universal.png) no-repeat;
+			}
+			
+			.middleBackContainerActiveUsers {
+				width:inherit;
+				height:100%;
+				background:url(images/community_page/middle_back_universal.jpg) repeat-y top center;
+			}
+			
+			
+		/*css code community_page > bottom_stuff*/
+		
+			.containerBottomStuffCommunityPage {
+				width:inherit;
+			}
+			
+				.oneColumnBottomStuffCommunityPage {
+					width:310px;
+					float:left;
+					margin-left:5px;
+					margin-right:10px;
+				}
+							
+					.headerOneColumnBottomStuffCmntyPage {
+						width:inherit;
+						height:50px;
+						background:url(images/community_page/header_bottom_stuff.jpg) no-repeat;
+						margin-bottom:15px;
+					}
+					
+						.headerOneColumnBottomStuffCmntyPage h1 {
+							margin:0;
+							padding:0;
+							color:#fff;
+							font-size:14px;
+							margin-left:15px;
+							position:relative;
+							top:15px;
+						}
+						
+							.headerOneColumnBottomStuffCmntyPage h1 a {
+								color:#fff;
+							}
+							
+					.wrapperProfileMostActiveUser, .wrapperContentGuestbookCommentsEntries {
+						width:310px;
+						margin-bottom:5px;
+					}
+					
+					.wrapperContentGuestbookCommentsEntries {
+						border-bottom:1px solid #949595;
+						padding-bottom:10px;
+						margin-bottom:10px;
+					}
+					
+						.wrapperProfileMostActiveUser ul, .wrapperContentGuestbookCommentsEntries ul {
+							margin:0;
+							padding:0;
+							list-style:none;
+							float:left;
+							color:#949595;
+						}
+						
+						.wrapperProfileMostActiveUser ul {
+							position:relative;
+							top:10px;
+						}
+						
+						.wrapperContentGuestbookCommentsEntries ul {
+							width:200px;
+						}
+						
+							.wrapperContentGuestbookCommentsEntries ul li a {
+								color:#949595;
+								font-weight:bold;
+							}
+						
+							.wrapperContentGuestbookCommentsEntries ul li.dateAddedGuestbookCommentEntries {
+								font-size:10px;
+							}
+						
+					.wrapperVideoMostActiveUser {
+						width:inherit;
+					}
+					
+						.wrapperVideoMostActiveUser ul.videoInfoMostActiveUser, .wrapperStatsMostActiveUser ul.statsInfoMostActiveUser {
+							margin:0;
+							padding:0;
+							list-style:none;
+							color:#949595;
+							padding-top:5px;
+							padding-bottom:5px;
+						}
+						
+							.wrapperVideoMostActiveUser ul.videoInfoMostActiveUser {
+								font-weight:bold;
+							}
+								
+						
+							.wrapperVideoMostActiveUser ul.videoInfoMostActiveUser li a {
+								color:#949595;
+							}
+							
+					.wrapperStatsMostActiveUser {
+						width:inherit;
+					}
+					
+/*css code for terms of use, about us, disclaimer*/
+
+.containerMainLegalElements, .containerMainLogInElements, .containerMainInviteFriends, .containerMainChangePassword {
+	width:inherit;
+	height:100%;
+	margin-bottom:35px;
+} 
+		
+	.containerHeaderTopLegalElements, .containerHeaderTopLogInElements, .containerHeaderTopInviteFriends, .containerHeaderTopChangePassword {
+		width:inherit;
+		height:170px;
+		background: url(images/legal_elements/header_top_legal_elements.png) no-repeat;
+	}
+	
+	.containerMiddleContentLegalElements, .containerMiddleContentLogInElements, .containerMiddleContentInviteFriends, .containerMiddleContentChangePassword {
+		width:inherit;
+		height:100%;
+		background:url(images/videos_page/back_middle_content_media_elements.png) repeat-y;
+		
+	}
+	
+	.containerMiddleContentChangePassword {
+		padding-top:15px;
+	}
+	
+	.containerBottomBackgroundLegalElements, .containerBottomBackgroundLogInElements {
+		width:inherit;
+		height:27px;
+		background:url(images/videos_page/back_bottom_media_elements.png) no-repeat;
+	}
+	
+		.wrapperMainBackgroundLegalElements, .wrapperMainBackgroundLogInElements, .wrapperMainBackgroundInviteFriendsElements {
+			width:895px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		
+			.topBackContainerLegalElements, .topBackContainerLogInElements, .topBackContainerInviteFriendsElements {
+				width:inherit;
+				height:21px;
+				background:url(images/legal_elements/back_top_legal_elements.png) no-repeat;
+			}
+			
+			.middleContentLegalElements, .middleContentLogInElements, .middleContentInviteFriendsElements	{
+				width:inherit;
+				height:100%;
+				background:url(images/legal_elements/back_middle_content_legal_elements.jpg) repeat-y top center;
+			}
+				
+				.wrapperMainTextLegalElements, .wrapperMainTextLogInElements {
+					margin-left:auto;
+					margin-right:auto;
+				}
+				
+				.wrapperMainTextLegalElements {
+					width:840px;
+				}
+				
+				.wrapperMainTextLogInElements {
+					width:740px;
+					padding-left:15px;
+				}
+				
+					.wrapperMainTextLegalElements h1, .wrapperMainTextLogInElements h1, .wrapperMainTextInviteFriendsElements h1 {
+						margin:0;
+						padding:0;
+						color:#fff;
+						font-size:14px;
+					}
+					
+					.wrapperMainTextLegalElements p, .wrapperMainTextLogInElements p, .wrapperMainTextInviteFriendsElements p {
+						margin:0;
+						padding:0;
+						color:#fff;
+					}
+					
+					.wrapperMainTextLegalElements p {
+						padding-top:20px;
+					}
+					
+					.wrapperMainTextLegalElements ul, .wrapperMainTextLogInElements ul {
+						margin:0;
+						padding:0;
+						list-style:none;
+						color:#fff;
+					}
+		
+			
+			.bottomBackContainerLegalElements, .bottomBackContainerLogInElements, .bottomBackContainerInviteFriendsElements {
+				width:inherit;
+				height:20px;
+				background:url(images/legal_elements/back_bottom_legal_elements.png) no-repeat;
+			}
+				
+	.textHeaderTopLegalElements, .textHeaderTopLogInElements, .textHeaderTopInviteFriends, .textHeaderTopChangePassword {
+			width:inherit;
+			margin-left:35px;
+			padding-top:35px;
+		}
+
+/*css code for search results*/
+
+.containerMainSearchResults, .containerMainMyInbox {
+		width:inherit;
+	}
+	
+	.headerSearchResults, .headerMyInbox {
+		width:inherit;
+		height:135px;
+		padding-top:25px;
+	}
+		
+			.headerSearchResults img {
+				margin-right:10px;
+				
+			}
+			
+		.containerSearchResults, .containerMyInbox {
+			width:inherit;
+			height:100%;
+			margin-top:15px;
+		}
+		
+	.wrapperWhatYouSearchedFor, .wrapperAllYouClubVideoGroups, .wrapperMyInboxMotto {
+		width:895px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+		.wrapperWhatYouSearchedFor h1, .wrapperAllYouClubVideoGroups h1 {
+			margin:0;
+			padding:0;
+			color:#fff;
+			font-size:16px;
+			padding-bottom:10px;
+		}
+		
+/*css code for all groups page*/
+
+.containerMainAllGroups {
+		width:inherit;
+	}
+	
+	.headerAllGroups {
+		width:inherit;
+		height:135px;
+		padding-top:25px;
+	}
+		
+			.headerAllGroups img {
+				margin-right:10px;
+				
+			}
+			
+		.containerAllGroups, .containerGuestbookMyProfile {
+			width:inherit;
+			height:100%;
+			margin-top:15px;
+		}
+		
+		.containerGuestbookMyProfile {
+			margin-bottom:25px;
+		}
+		
+	.wrapperPresentationOfGroups {
+		width:inherit;
+		padding-left:35px;
+		padding-top:15px;
+		padding-bottom:20px;
+	}
+	
+		.containerGroupDetails {
+			width:177px;
+			float:left;
+			margin-left:5px;
+		}
+		
+			.picGroupAvatar {
+				width:inherit;
+				height:131px;
+				background-color:#013035;
+				text-align:center;
+				margin-bottom:5px;
+			}
+			
+				.picGroupAvatar img {
+					margin-top:3px;
+				}
+				
+		.containerGroupDetails ul {
+			margin:0;
+			padding:0;
+			list-style:none;
+			color:#000;
+		}
+		
+			.containerGroupDetails ul li a {
+				color:#000;
+				font-weight:bold;
+			}
+			
+			
+/*css code for media details*/
+
+.wrapperTitleMediaDetails, .wrapperMediaAndAboutInfo {
+	width:inherit;
+	height:100%;
+	background:url(images/media_details_page/back_title_media_details.jpg) repeat-y;
+	
+}
+
+	.wrapperTitleMediaDetails {
+		padding-top:15px;
+		padding-bottom:15px;
+		padding-left:10px;
+	}
+
+		.wrapperTitleMediaDetails h1 {
+			margin:0;
+			padding:0;
+			color:#fff;
+			font-size:16px;
+			float:left;
+		}
+	
+		.wrapperTitleMediaDetails ul {
+			margin:0;
+			padding:0;
+			list-style:none;
+			display:inline;
+			float:left;
+			margin-left:10px;
+			font-size:11px;
+			position:relative;
+			top:2px;
+		}
+			
+			.wrapperTitleMediaDetails ul li {
+				display:inline;
+				margin-left:5px;
+				margin-right:5px;
+			}
+			
+				.wrapperTitleMediaDetails ul li img {
+					margin-right:5px;
+				}
+			
+			.wrapperTitleMediaDetails ul li a {
+				text-decoration:none;
+				color:#fff;
+			}
+			
+			.wrapperTitleMediaDetails ul li a:hover {
+				text-decoration:underline;
+			}
+	
+		.leftColumnMediaPlaceHolder {
+			width:620px;
+			float:left;
+			margin-left:6px;
+			padding-bottom:10px;
+		}
+		
+		.rightColumnMediaTextAndLinks {
+			width:330px;
+			height:100%;
+			float:left;
+			background:url(images/media_details_page/cassette_background.png) no-repeat;
+			margin-left:15px;
+		}
+		
+			.rightColumnMediaTextAndLinks h1 {
+				margin:0;
+				padding:0;
+				color:#fff;
+				font-size:16px;
+				padding-bottom:5px;
+			}
+			
+			.starsRatingMediaTextAndLinks {
+				width:inherit;
+				height:17px;
+			}
+			
+			.textRatingsMediaTextAndLinks {
+				width:inherit;
+				padding-bottom:10px;
+			}
+			
+				.textRatingsMediaTextAndLinks p {
+					margin:0;
+					padding:0;
+					color:#fff;
+				}
+				
+					.textRatingsMediaTextAndLinks p a {
+						color:#fff;
+						font-weight:bold;
+					}
+				
+			.wrapperReportBookmarkButtonsMediaDetails {
+				width:inherit;
+				padding-bottom:10px;
+			}
+			
+				.btnReportMediaDetails {
+					width:71px;
+					height:26px;
+					background:url(images/media_details_page/back_btn_report.png) no-repeat;
+				}
+				
+				.btnBookmarkMediaDetails, .btnDownloadSound {
+					width:91px;
+					height:26px;
+					background: url(images/media_details_page/back_btn_bookmark.png) no-repeat;
+				}
+				
+				.btnReportMediaDetails, .btnBookmarkMediaDetails, .btnDownloadSound {
+					float:left;
+					text-align:center;
+				}
+				
+					.btnReportMediaDetails a, .btnBookmarkMediaDetails a, .btnDownloadSound a {
+						color:#fff;
+						text-decoration:none;
+						position:relative;
+						top:2px;
+					}
+					
+					.btnReportMediaDetails a:hover, .btnBookmarkMediaDetails a:hover, .btnDownloadSound a:hover {
+						text-decoration:underline;
+					}
+					
+				.loginToRateItemMediaDetails {
+					width:330px;
+					height:36px;
+					background:url(images/media_details_page/back_btn_login_rate.png) no-repeat;
+					text-align:center;
+					padding-bottom:10px;
+				}
+				
+					.loginToRateItemMediaDetails a {
+						color:#fff;
+						font-weight:bold;
+						text-decoration:none;
+						position:relative;
+						top:8px;
+					}
+				
+					.loginToRateItemMediaDetails a:hover {
+						text-decoration:underline;
+					}
+					
+					.wrapperFormPermaLinkEmbeddedLink {
+						width:inherit;
+						margin-left:auto;
+						margin-right:auto;
+						padding-bottom:5px;
+					}
+					
+						.textFieldPermaLinkEmbeddedLink {
+							width:inherit;
+							margin-bottom:5px;
+						}
+						
+							.textFieldPermaLinkEmbeddedLink p {
+								margin:0;
+								padding:0;
+								color:#fff;
+								padding-bottom:3px;
+							}
+							
+							#textFieldMediaDetails {
+								width:325px;
+								height:20px;
+								border:none;
+							}
+							
+						.statsMediaDetails {
+							width:inherit;
+						}
+						
+							.statsMediaDetails ul {
+								margin:0;
+								padding:0;
+								list-style:none;
+								color:#fff;
+							}
+							
+								.statsMediaDetails ul li a {
+									color:#fff;
+									font-weight:bold;
+								}
+								
+		.backBottomMediaDetails {
+			width:inherit;
+			height:12px;
+			background:url(images/media_details_page/back_bottom_media_details.png) no-repeat;
+			margin-bottom:20px;
+		}
+		
+		.container2ColumnsMediaDetailsComments {
+			width:inherit;
+		}
+		
+			.leftColumnMediaDetailsComments {
+				width:635px;
+				float:left;
+				margin-bottom:45px;
+			}
+			
+				.leftColumnMediaDetailsComments h1 {
+					margin:0;
+					padding:0;
+					font-size:18px;
+					padding-bottom:25px;
+				}
+				
+				.wrapperMediaDetailsComments {
+					width:inherit;
+					border-bottom:1px solid #cdcdcd;
+					padding-bottom:20px;
+					margin-bottom:20px;
+				}
+				
+					.wrapperMediaDetailsComments p, .wrapperMediaDetailsComments ul {
+						margin:0;
+						padding:0;
+						color:#000;
+					}
+					
+					.wrapperMediaDetailsComments p {
+						padding-bottom:10px;
+					}
+					
+					.wrapperMediaDetailsComments ul {
+						list-style:none;
+						display:inline;
+						font-weight:bold;
+					}
+					
+						.wrapperMediaDetailsComments ul li {
+							display:inline;
+						}
+						
+						.wrapperMediaDetailsComments ul li a {
+							color:#000;
+						}
+						
+				.rightColumnMediaDetailsComments {
+					width:326px;
+					float:right;
+				}
+				
+					.backTopRightColumnMediaDetailsComments {
+						width:inherit;
+						height:28px;
+						background:url(images/media_details_page/back_top_rightColumn_MDetails.png) no-repeat;
+					}
+					
+					.backMiddleRightColumnMediaDetailsComments {
+						width:inherit;
+						height:100%;
+						background: url(images/media_details_page/back_middle_RColumn_MDetails.jpg) repeat-y;
+					}
+					
+					.backBottomRightColumnMediaDetailsComments {
+						width:inherit;
+						height:11px;
+						background:url(images/media_details_page/back_bottom_rightColumn_MDetails.png) no-repeat;
+					}
+					
+					.extraInfoMediaDetails {
+						width:290px;
+						margin-left:auto;
+						margin-right:auto;
+						padding-bottom:25px;
+					}
+					
+						.extraInfoMediaDetails h1, .extraInfoMediaDetails p, .tagsMediaDetails h1, .tagsMediaDetails p {
+							margin:0;
+							padding:0;
+							color:#fff;
+							
+						}
+						
+						.extraInfoMediaDetails h1, .tagsMediaDetails h1 {
+							font-size:18px;
+							padding-bottom:10px;
+						}
+						
+						.tagsMediaDetails h1 {
+							padding-left:15px;
+						}
+						
+						.tagsMediaDetails {
+							width:313px;
+							margin-left:auto;
+							margin-right:auto;
+						}
+						
+						.wrapperTagsExtraInfoMediaDetails {
+							width:inherit;
+						}
+						
+							.backTopTagsExtraInfoMediaDetails, .backBottomTagsExtraInfoMediaDetails {
+								width:inherit;
+								height:14px;
+							}
+							
+							.backTopTagsExtraInfoMediaDetails {
+								background:url(images/media_details_page/back_top_tags.jpg) no-repeat;
+							}
+							
+							.backBottomTagsExtraInfoMediaDetails {
+								background:url(images/media_details_page/back_bottom_tags.jpg) no-repeat;
+							}
+						
+							.backMiddleTagsExtraInfoMediaDetails {
+								width:inherit;
+								height:100%;
+								background:url(images/media_details_page/back_middle_tags.jpg) no-repeat;
+							}
+							
+							.backBottomTagsExtraInfoMediaDetails {
+								width:inherit;
+							}
+							
+							
+	.wrapperMainCategoryPlaylist {
+		width:inherit;
+		margin-bottom:30px;
+	}
+	
+		.wrapperHeaderCategoryPlaylist {
+			width:inherit;
+			height:100%;
+			margin-bottom:20px;
+		}
+		
+		.wrapperScrollerCategoryPlaylist {
+			width:inherit;
+		}
+		
+			.scroller {
+				width:inherit;
+			}
+			
+				.prevArrow, .nextArrow {
+					width:33px;
+					height:33px;
+					float:left;
+					position:relative;
+					top:60px;
+				}
+				
+				.prevArrow {
+					margin-right:20px;
+				}
+				
+				.nextArrow {
+					margin-left:20px;
+				}
+				
+				.containerVideoCategoryPlaylist {
+					width:164px;
+					height:168px;
+					float:left;
+					padding-top:5px;
+					margin-right:5px;
+					background:url(images/scroller/back_container_latest_video.png) no-repeat;
+				}
+				
+					.picVideoCategoryPlaylist {
+						width:150px;
+						height:94px;
+						margin-left:auto;
+						margin-right:auto;
+						margin-bottom:10px;
+					}
+					
+					.descriptionVideoCategoryPlaylist {
+						width:inherit;
+						text-align:center;
+					}
+					
+						.descriptionVideoCategoryPlaylist h1 {
+							margin:0;
+							padding:0;
+							font-size:12px;
+						}
+						
+							.descriptionVideoCategoryPlaylist h1 a {
+								color:#fff;
+								text-decoration:none;
+							}
+							
+							.descriptionVideoCategoryPlaylist h1 a:hover {
+								text-decoration:underline;
+							}
+							
+/*css code for my_profile_page*/
+
+.containerMainProfilePage, .containerMainGroupDetails {
+		width:inherit;
+	}
+	
+	.headerProfilePage {
+		width:inherit;
+		height:135px;
+		padding-top:25px;
+	}
+		
+			.headerProfilePage img {
+				margin-right:10px;
+			}
+					
+	.containerActionsUserProfilePage, .containerActionsGroupDetailsPage {
+		width:inherit;
+		height:100%;
+		margin-top:15px;
+		margin-bottom:20px;
+	}
+	
+	.wrapper3ColumnsProfilePage, .wrapperColumnsGroupDetailsPage {
+		width:inherit;
+		padding-left:25px;
+	}
+	
+		.leftColumnUserProfile {
+			width:250px;
+			float:left;
+			margin-right:25px;
+		}
+		
+			.wrapperUserProfile {
+				width:inherit;
+			}
+			
+				.wrapperUserProfile h1 {
+					margin:0;
+					padding:0;
+					font-size:14px;
+					padding-bottom:10px;
+					color:#013035;
+				}
+			
+				.wrapperUserProfile img.userAvatarLarge {
+					margin-top:5px;
+					margin-bottom:5px;
+				}
+			
+				.wrapperUserProfile ul, .menuUserActions ul {
+					margin:0;
+					padding:0;
+					list-style:none;
+				}
+				
+				.wrapperUserProfile ul {
+					color:#013035;
+				}
+				
+				.menuUserActions ul {
+					margin-left:25px;
+					position:relative;
+					top:35px;
+				}
+				
+					.menuUserActions ul li img {
+						margin-right:5px;
+					}
+				
+					.wrapperUserProfile ul li a, .menuUserActions ul li a {
+						text-decoration:none;
+						font-weight:bold;
+					}
+					
+					.wrapperUserProfile ul li a {
+						color:#013035;
+					}
+					
+					.menuUserActions ul li a {
+						color:#fff;
+					}
+					
+					.wrapperUserProfile ul li a:hover, .menuUserActions ul li a:hover {
+						text-decoration:underline;
+					}
+		
+		.middleColumnUserProfile, .rightColumnUserProfile {
+			width:325px;
+			float:left;
+		}
+		
+		.middleColumnUserProfile {
+			margin-left:25px;
+		}
+		
+		.rightColumnUserProfile {
+			margin-left:5px;
+		}
+		
+			.wrapperUserActions, .wrapperGuestbook {
+				width:inherit;
+			}
+			
+				.headerUserActions, .headerGuestbook {
+					width:inherit;
+					height:41px;
+					background:url(images/my_profile_user_profile/back_header_user_actions.png) no-repeat;
+					padding-bottom:5px;
+				}
+				
+					.headerUserActions h1, .headerGuestbook h1 {
+						margin:0;
+						padding:0;
+						color:#fff;
+						font-size:14px;
+						position:relative;
+						top:10px;
+						margin-left:20px;
+					}
+					
+			.menuUserActions {
+				width:inherit;
+				height:185px;
+				background:url(images/my_profile_user_profile/back_user_actions.png) no-repeat;
+			}
+			
+			
+		.containerMyMostRecentStuff {
+			width:inherit;
+			padding-left:20px;
+		}
+		
+			.wrapperCategoryMyMostRecentStuff {
+				width:300px;
+				height:319px;
+				float:left;
+				margin-right:20px;
+				background:url(images/my_profile_user_profile/back_category_my_recent_stuff.png) no-repeat;
+			}
+			
+				.headerCategoryMyMostRecentStuff {
+					width:inherit;
+					height:72px;
+					padding-top:15px;
+					padding-bottom:10px;
+				}
+				
+					.headerCategoryMyMostRecentStuff img {
+						margin-left:15px;
+					}
+					
+				.wrapperMediaElementMyMostRecentStuff {
+					width:280px;
+					height:114px;
+					margin-left:auto;
+					margin-right:auto;
+					margin-bottom:10px;
+				}
+				
+				.wrapperStatsMediaElementMyMostRecentStuff {
+					width:inherit;
+				}
+				
+					.wrapperStatsMediaElementMyMostRecentStuff ul {
+						margin:0;
+						padding:0;
+						color:#000;
+						list-style:none;
+						margin-left:15px;
+					}
+					
+						.wrapperStatsMediaElementMyMostRecentStuff ul li a {
+							font-weight:bold;
+							color:#000;
+							text-decoration:none;
+						}
+						
+						.wrapperStatsMediaElementMyMostRecentStuff ul li a:hover {
+							text-decoration:underline;
+						}
+						
+						
+		.wrapperUserGuestbook {
+			width:310px;
+			float:left;
+			margin-left:10px;
+			margin-bottom:5px;
+		}
+					
+						.wrapperUserGuestbook img.userAvatar {
+							width:80px;
+							height:80px;
+							float:left;
+							margin-right:5px;
+						}
+						
+						.contentCommentGuestbook {
+							width:220px;
+							float:left;
+						}
+						
+						.contentCommentGuestbook ul {
+							margin:0;
+							padding:0;
+							list-style:none;
+						}
+						
+							.contentCommentGuestbook ul li a {
+								width:inherit;
+								color:#000;
+								text-decoration:underline;
+							}
+							
+	.containerFormPostCommentGuestbook {
+		width:400px;
+		margin-left:10px;
+		margin-top:20px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+		.containerFormPostCommentGuestbook h1 {
+			margin:0;
+			padding:0;
+			font-size:14px;
+			padding-bottom:5px;
+		}
+	
+		#formPostCommentGuestbook {
+			width:inherit;
+			
+		}
+		
+		#textAreaGuestbook {
+			width:400px;
+			height:100px;
+			border:none;
+			margin-bottom:10px;
+		}
+		
+		label.labelPostCommentGuestbook {
+			color:#000;
+			font-weight:bold;
+			float:left;
+		}
+		
+		#listMediaCommentGuestbook {
+			width:235px;
+			border:none;
+			margin-bottom:10px;
+			float:left;
+			margin-left:5px;
+		}
+						
+	
+/*css code for edit_friend_list*/
+
+.containerMainEditFriendList {
+		width:inherit;
+	}
+	
+	.headerEditFriendList {
+		width:inherit;
+		height:135px;
+		padding-top:25px;
+	}
+		
+			.headerEditFriendList img {
+				margin-right:10px;
+			}
+			
+	.containerEditFriendList {
+		width:inherit;
+		height:100%;
+		margin-top:15px;
+		margin-bottom:20px;
+	}
+	
+	.middleBackContainerEditFriendList h1 {
+		margin:0;
+		padding:0;
+		color:#fff;
+		font-size:16px;
+		margin-left:10px;
+		padding-bottom:15px;
+	}
+	
+		.wrapperSendRequestFriendship {
+			width:140px;
+			height:28px;
+			margin-top:10px;
+			margin-bottom:10px;
+			background:url(images/edit_friends_list/back_accept_friend_request.jpg) no-repeat;
+			text-align:center;
+		}
+		
+			.wrapperSendRequestFriendship a {
+				color:#fff;
+				font-weight:bold;
+				text-decoration:none;
+				position:relative;
+				top:4px;
+			}
+			
+			.wrapperSendRequestFriendship a:hover {
+				text-decoration:underline;
+			}
+			
+/*css code for change_user_detail*/
+
+.containerMainChangeUserDetail {
+		width:inherit;
+	}
+	
+	.headerChangeUserDetail {
+		width:inherit;
+		height:135px;
+		padding-top:25px;
+	}
+		
+			.headerChangeUserDetail img {
+				margin-right:10px;
+			}
+			
+	.containerChangeUserDetail {
+		width:inherit;
+		height:100%;
+		margin-top:15px;
+		margin-bottom:20px;
+	}
+	
+		.containerMainFormChangeUserDetail {
+			width:inherit;
+		}
+		
+			.leftColumnFormChangeUserDetail {
+				width:345px;
+				float:left;
+				margin-left:20px;
+			}
+			
+				.leftColumnFormChangeUserDetail h1, .rightColumnFormChangeUserDetail h1 {
+					margin:0;
+					padding:0;
+					color:#fff;
+					font-size:14px;
+				}
+				
+				.leftColumnFormChangeUserDetail h1 {
+					padding-bottom:15px;
+				}
+				
+				.mainWrapperSetOfTextFieldsFormChangeUserDetail {
+					width:inherit;
+					margin-bottom:30px;
+				}
+				
+					.wrapperTextFieldFormChangeUserDetail {
+						width:310px;
+						margin-bottom:5px;
+					}
+					
+						.wrapperTextFieldFormChangeUserDetail label.labelFormChangeUserDetail {
+							width:120px;
+							color:#fff;
+							float:left;
+							text-align:right;
+						}
+						
+						#textFieldFormChangeUserDetail {
+							width:180px;
+							height:20px;
+							border:none;
+							float:right;
+						}
+			
+			.rightColumnFormChangeUserDetail {
+				width:615px;
+				float:left;
+				padding-top:13px;
+			}
+			
+				.wrapperMainTextAreaFormChangeUserDetail {
+					width:290px;
+					float:left;
+					margin-right:10px;
+					margin-bottom:10px;
+				}
+				
+					.textAreaFormChangeUserDetail {
+						width:inherit;
+					}
+					
+						label.labelTextAreaFormChangeUserDetail {
+							width:inherit;
+							color:#fff;
+						}
+						
+						#userPersonalInformation {
+							width:290px;
+							height:121px;
+							border:none;
+						}
+						
+				.containerMainNotifications {
+					width:inherit;
+				}
+				
+					.containerMainNotifications h1 {
+						margin:0;
+						padding:0;
+						color:#fff;
+						font-size:14px;
+						margin-left:20px;
+						padding-bottom:10px;
+					}
+					
+						.wrapperNotificationFormChangeUserDetail {
+							width:685px;
+							padding-bottom:5px;
+							margin-left:15px;
+						}
+						
+						label.labelNotificationFormChangeUserDetail {
+							width:460px;
+							text-align:right;
+							float:left;
+							color:#fff;
+						}
+						
+						#textFieldNotificationFormChangeUserDetail {
+							width:195px;
+							height:20px;
+							float:left;
+							border:none;
+							margin-left:5px;
+						}
+						
+				.containerSubmitBtn, .containerSubmitBtnGuestbook, .containerSubmitBtnLogin, .containerSubmitBtnInviteFriends, .containerSubmitBtnChangePasswords {
+					width:109px;
+					height:43px;
+					background:url(images/change_user_details/back_submit_btn.png) no-repeat;
+					text-align:center;
+				}
+				
+				.containerSubmitBtnChangePasswords {
+					margin-right:70px;
+				}
+				
+				.containerSubmitBtnInviteFriends {
+					float:right;
+				}
+				
+				.containerSubmitBtn, .containerSubmitBtnGuestbook {
+					float:right;
+				}
+				
+				.containerSubmitBtnLogin {
+					float:left;
+				}
+				
+				.containerSubmitBtn {
+					margin-right:35px;
+				}
+				
+					#submitBtnFormChangeUserDetail, #submitBtnFormInviteFriends , #submitBtnFormChangePassword {
+						border:none;
+						background:none;
+						font-size:16px;
+						font-weight:bold;
+						color:#fff;
+						position:relative;
+						top:7px;
+					}
+					
+					
+/*css code for make_group.html*/
+
+.containerMainMakeGroup {
+		width:inherit;
+	}
+	
+	.headerMakeGroup {
+		width:inherit;
+		height:135px;
+		padding-top:25px;
+	}
+		
+			.headerMakeGroup img {
+				margin-right:10px;
+			}
+			
+	.containerMakeGroup {
+		width:inherit;
+		height:100%;
+		margin-top:15px;
+		margin-bottom:20px;
+	}
+	
+	.wrapperMainMakeGroupForm {
+		width:inherit;
+		padding-left:25px;
+	}
+	
+		.wrapperMainMakeGroupForm h1 {
+			margin:0;
+			padding:0;
+			color:#fff;
+			font-size:14px;
+			padding-bottom:20px;
+		}
+		
+	.wrapperTextFieldColumnMakeGroup {
+		width:265px;
+		float:left;
+	}
+	
+		label.labelMakeGroup {
+			width:255px;
+			color:#fff;
+		}
+		
+		#textFieldMakeGroup {
+			width:255px;
+			height:20px;
+			border:none;
+			margin-top:5px;
+			margin-bottom:5px;
+		}
+		
+		#textAreaMakeGroup {
+			width:400px;
+			height:125px;
+			border:none;
+			margin-top:5px;
+		}
+		
+		.wrapperTextFieldColumnMakeGroup p {
+			margin:0;
+			padding:0;
+			color:#fff;
+		}
+	
+	.wrapperTextAreaColumnMakeGroup {
+		width:410px;
+		float:left;
+	}
+	
+	.leftColumnCategoriesMakeGroup {
+		width:520px;
+		float:left;
+		padding-top:30px;
+	}
+	
+		.leftColumnCategoriesMakeGroup p, .rightColumnGroupSettingsMakeGroup p {
+			margin:0;
+			padding:0;
+			color:#fff;
+			font-weight:bold;
+			padding-bottom:10px;
+		}
+		
+			.wrapperCategoriesMakeGroup {
+				width:105px;
+				float:left;
+				margin-left:10px;
+			}
+			
+				#checkBoxCategoryMakeGroup, #checkBoxCategoryMediaUpload {
+					width:15px;
+					height:15px;
+					border:none;
+					background:none;
+					float:left;
+				}
+				
+				label.labelCheckBoxCategroyMakeGroup, label.labelCheckBoxGroupSettings, label.labelCheckBoxCategoryMediaUpload {
+					float:left;
+					color:#fff;
+					margin-left:5px;
+				}
+				
+				label.labelCheckBoxCategroyMakeGroup, label.labelCheckBoxCategoryMediaUpload {
+					width:70px;
+					font-weight:bold;
+				}
+				
+				label.labelCheckBoxGroupSettings {
+					width:375px;
+				}
+				
+				
+				
+				
+		.rightColumnGroupSettingsMakeGroup {
+			width:415px;
+			float:left;
+			margin-left:20px;
+			padding-top:30px;
+		}
+		
+			.wrapperCheckBoxInfoGroupSettings {
+				width:inherit;
+				margin-bottom:5px;
+			}
+			
+			
+/*css code for media_upload.html*/
+
+.containerMainMediaUpload {
+		width:inherit;
+	}
+	
+	.headerMediaUpload {
+		width:inherit;
+		height:135px;
+		padding-top:25px;
+	}
+		
+			.headerMediaUpload img {
+				margin-right:10px;
+			}
+			
+	.containerMediaUpload {
+		width:inherit;
+		height:100%;
+		margin-top:15px;
+		margin-bottom:20px;
+	}
+	
+	.wrapperMainMediaUploadForm {
+		width:inherit;
+	}
+	
+		.leftColumnPleaseUploadYourMedia {
+			width:315px;
+			float:left;
+			margin-left:15px;
+			padding-top:15px;
+		}
+		
+			.leftColumnPleaseUploadYourMedia h1, .leftColumnPleaseUploadYourMedia p {
+				margin:0;
+				padding:0;
+				color:#fff;
+			}
+			
+			 .leftColumnPleaseUploadYourMedia h1 {
+			 	font-size:14px;
+				padding-bottom:15px;
+			 }
+			 
+			 .leftColumnPleaseUploadYourMedia p {
+			 	font-weight:bold;
+				padding-bottom:10px;
+			 }
+			
+			.containerRadioButtonsTopMediaUpload {
+				width:inherit;
+			}
+			
+				.wrapper1RadioBtnTopMediaUpload {
+					width:80px;
+					float:left;
+					font-weight:bold;
+				}
+				
+				#radioBtnMediaUpload {
+					border:none;
+					float:left;
+				}
+				
+				label.labelRadioBtnMediaUpload, label.labelRadioBtnMediaUploadPublicPrivate {
+					float:left;
+					color:#fff;
+				}
+				
+				label.labelRadioBtnMediaUpload {
+					width:50px;
+				}
+				
+				label.labelRadioBtnMediaUploadPublicPrivate {
+					width:220px;
+					margin-left:3px;
+					padding-bottom:5px;
+				}
+		
+		.rightColumnNotesUploadYourMedia {
+			width:621px;
+			height:100%;
+			float:right;
+			margin-right:15px;
+			margin-bottom:20px;
+		}
+		
+			.backTopNotesUploadYourMedia, .backBottomNotesUploadYourMedia {
+				width:621px;
+				height:13px;
+			}
+			
+			.backMiddleNotesUploadYourMedia	{
+				width:621px;
+				height:100%;
+				background:url(images/media_upload/back_middleContent_notes.jpg) repeat-y;
+			}
+			
+			.backTopNotesUploadYourMedia {
+				background:url(images/media_upload/back_header_top_notes.jpg) no-repeat;
+			}
+			
+			.backBottomNotesUploadYourMedia {
+				background:url(images/media_upload/back_bottom_notes.jpg) no-repeat;
+			}
+			
+			.textNotesMediaUpload {
+				width:590px;
+				margin-left:auto;
+				margin-right:auto;
+			}
+			
+				.textNotesMediaUpload h1, p {
+					margin:0;
+					padding:0;
+					color:#fff;
+				}
+				
+					.textNotesMediaUpload h1 {
+						font-size:14px;
+						padding-bottom:10px;
+					}
+					
+					.textNotesMediaUpload p {
+						padding-bottom:15px;
+					}
+					
+	.containerTextFieldsMediaUpload {
+		width:inherit;
+		padding-left:15px;
+	}
+	
+		.leftColumnTextFieldsMediaUpload {
+			width:625px;
+			float:left;
+		}
+		
+			.wrapperTextFieldMediaUpload {
+				width:250px;
+				float:left;
+				margin-right:5px;
+			}
+			
+				label.labelTextFieldMediaUpload {
+					color:#fff;
+				}
+				
+				#textFieldMediaUpload {
+					width:250px;
+					height:20px;
+					border:none;
+				}
+				
+			.wrapperBrowseBtnMediaUpload {
+				width:90px;
+				height:23px;
+				float:left;
+				text-align:center;
+				
+			} 
+			
+				#browseBtnMediaUpload {
+					width:inherit;
+					color:#fff;
+					border:none;
+					background:none;
+					background-color:#e65e1b;
+					padding-bottom:4px;
+					font-weight:bold;
+				}
+			
+			.wrapperTagsMediaUpload {
+				width:625px;
+				padding-top:5px;
+			}
+			
+				#textFieldTagsMediaUpload {
+					width:600px;
+					height:20px;
+					border:none;
+				}
+				
+				.wrapperTagsMediaUpload p {
+					width:600px;
+					margin:0;
+					padding:0;
+					color:#fff;
+					font-weight:bold;
+					padding-top:3px;
+				}
+		
+		.rightColumnTextAreaMediaUpload {
+			width:320px;
+			float:left;
+		}
+		
+			#textAreaMediaUpload {
+				width:320px;
+				height:125px;
+				border:none;
+			}
+			
+		.containerBottomInformationMediaUpload {
+			width:inherit;
+			padding-left:15px;
+		}
+		
+			.leftColumnCategoriesMediaUpload {
+				width:450px;
+				float:left;
+			}
+			
+				.leftColumnCategoriesMediaUpload h1 {
+					margin:0;
+					padding:0;
+					color:#fff;
+					font-size:14px;
+					padding-bottom:10px;
+				}
+			
+				.wrapperCategoriesMediaUpload {
+					width:105px;
+					float:left;
+					margin-right:5px;
+				}
+			
+			.middleColumnPublicPrivateMediaUpload {
+				width:275px;
+				float:left;
+				padding-top:25px;
+			}
+			
+			.rightColumnTypesOfFilesMediaUpload {
+				width:200px;
+				float:left;
+				padding-top:25px;
+			}
+			
+				.rightColumnTypesOfFilesMediaUpload p, .middleColumnPublicPrivateMediaUpload p {
+					margin:0;
+					padding:0;
+					color:#fff;
+				}
+				
+				.middleColumnPublicPrivateMediaUpload p {
+					font-weight:bold;
+					padding-bottom:10px;
+				}
+				
+	.wrapperTextSuccessFailureUpload {
+		width:inherit;
+		padding-left:25px;
+	}
+	
+		.wrapperTextSuccessFailureUpload h1.errorMessageMediaUpload {
+			color: #990000;
+		}
+				
+				
+/*css code for my_history, my_bookmarks*/
+
+.containerMainMyHistory, .containerMainMyBookmarks {
+		width:inherit;
+	}
+	
+	.headerMyHistory, .headerMyBookmarks  {
+		width:inherit;
+		height:135px;
+		padding-top:25px;
+	}
+		
+			.headerMyHistory img, .headerMyBookmarks img {
+				margin-right:10px;
+				
+			}
+			
+		.containerMyHistory, .containerMyBookmarks {
+			width:inherit;
+			height:100%;
+			margin-top:15px;
+		}
+		
+/*css code for media bookmarking*/
+
+.containerMediaBookmarking {
+	width:inherit;
+	padding-bottom:10px;
+}
+
+	.containerMediaBookmarking ul {
+		margin:0;
+		padding:0;
+		list-style:none;
+		display:inline;
+	}
+	
+		.containerMediaBookmarking ul li {
+			display:inline;
+			color:#fff;
+		}
+		
+			.containerMediaBookmarking ul li img {
+				position:relative;
+				top:8px;
+			}
+			
+			
+/*css code for my_invite.html*/
+
+.containerFormInviteFriends {
+	width:740px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+	.containerEmailNameFields {
+		width:450px;
+		float:left;
+	}
+	
+	.containerEmailNameFields, .containerPersonalMessage {
+		padding-top:10px;
+	}
+	
+	.containerPersonalMessage {
+		width:285px;
+		float:left;
+		margin-left:5px;
+	}
+	
+		.wrapperTextAreaInviteFriends {
+			width:inherit;
+		}
+	
+		.wrapperFieldsEmail, .wrapperFieldName {
+			width:220px;
+			float:left;
+			margin-right:5px;
+			padding-bottom:10px;
+		}
+		
+		#textFieldNameInviteFriends, #textFieldsEmailInviteFriends {
+			width:220px;
+			height:20px;
+			border:none;
+		}
+		
+		#textAreaMessageInviteFriends {
+			width:285px;
+			height:220px;
+			border:none;
+		}
+		
+/*css code for group_details_main.html*/
+
+.headerGroupDetailsPage {
+	width:inherit;
+	height:88px;
+	padding-top:25px;
+}
+
+.leftColumnGroupDetailsForumPostsTable {
+	 	width:350px;
+		float:left;
+		margin-right:10px;
+	 }
+	 
+	 .wrapperGroupDetailsInfo table {
+	 	width:inherit;
+		margin-bottom:15px;
+	 }
+	 
+	 	.wrapperGroupDetailsInfo table td.headerTD {
+			background-color:#21eaff;
+			padding:3px 3px;
+			text-align:center;
+			font-weight:bold;
+			color:#000;
+		}
+		
+		.wrapperGroupDetailsInfo table td {
+			text-align:center;
+			background-color:#0a8893;
+			padding:3px 10px;
+			color:#fff;
+		}
+		
+		.wrapperGroupDetailsInfo table td a {
+			color:#fff;
+			text-decoration:none;
+			font-weight:bold;
+		}
+		
+		.wrapperGroupDetailsInfo table td a:hover {
+			text-decoration:underline;
+		}
+		
+		.containerFormStartNewTopic {
+			width:inherit;
+			
+		}
+		
+			.containerFormStartNewTopic h1 {
+				margin:0;
+				padding:0;
+				font-size:14px;
+				padding-bottom:10px;
+			}
+		
+			.wrapperTextFieldTopic {
+				width:inherit;
+				margin-bottom:3px;
+			}
+			
+				.wrapperTextFieldTopic label, .wrapperAddMediaToTopic label {
+					width:80px;
+					float:left;
+					margin-right:5px;
+					text-align:right;
+				}
+				
+				#textFieldTopic {
+					width:260px;
+					height:20px;
+					float:left;
+					border:none;
+				}
+				
+			.wrapperAddMediaToTopic {
+				width:inherit;
+				margin-bottom:10px;
+			}
+			
+			#mediaList {
+				width:260px;
+				float:left;
+			}
+			
+			.wrapperBtnAddTopic {
+				width:inherit;
+				text-align:right;
+			}
+
+
+
+/*css code for group_users_waiting_to_be_approved.html*/
+
+.containerTableUsersWaitingToBeApproved, .containerTableUsersMembersOfYourGroup, .containerTableItemsWaitingToBeApproved, .containerTableTopicsWaitingToBeApproved, .containerTableInviteFriends {
+	width:inherit;
+	padding-bottom:25px;
+}
+
+.containerTableUsersWaitingToBeApproved h1, .containerTableUsersMembersOfYourGroup h1, .containerTableItemsWaitingToBeApproved h1, .containerTableTopicsWaitingToBeApproved h1, .containerTableInviteFriends h1 {
+		margin:0;
+		padding:0;
+		color:#fff;
+		font-size:16px;
+		padding-bottom:15px;
+	}
+	
+	.containerTableUsersWaitingToBeApproved table, .containerTableUsersMembersOfYourGroup table, .containerTableItemsWaitingToBeApproved table, .containerTableTopicsWaitingToBeApproved table, .containerTableInviteFriends table {
+		width:95%;
+	}
+
+	.containerTableUsersWaitingToBeApproved table tr td.cellHeaderUsersToBeApproved, .containerTableUsersMembersOfYourGroup table tr td.cellHeaderMembersOfYourGroup, .containerTableItemsWaitingToBeApproved table tr td.cellHeaderItemsToBeApproved, .containerTableTopicsWaitingToBeApproved table tr td.cellHeaderTopicsToBeApproved, .containerTableInviteFriends table tr td.cellHeaderInviteFriends {
+		background-color:#22eaff;
+		padding:5px 5px;
+		font-weight:bold;
+		color:#000;
+	}
+	
+	.containerTableUsersWaitingToBeApproved table tr td, .containerTableUsersMembersOfYourGroup table tr td, .containerTableItemsWaitingToBeApproved table tr td, .containerTableTopicsWaitingToBeApproved table tr td, .containerTableInviteFriends table tr td {
+		text-align:center;
+		background-color:#097f9d;
+		color:#fff;
+		padding:5px 5px;
+	}
+	
+		.containerTableUsersWaitingToBeApproved table tr td a, .containerTableUsersMembersOfYourGroup table tr td a, .containerTableItemsWaitingToBeApproved table tr td a, .containerTableTopicsWaitingToBeApproved table tr td a, .containerTableInviteFriends table tr td a {
+			text-decoration:none;
+			color:#fff;
+			font-weight:bold;
+		}
+		
+		.containerTableUsersWaitingToBeApproved table tr td a:hover, .containerTableUsersMembersOfYourGroup table tr td a:hover, .containerTableItemsWaitingToBeApproved table tr td a:hover, .containerTableTopicsWaitingToBeApproved table tr td a:hover, .containerTableInviteFriends table tr td a:hover {
+			text-decoration:underline;
+		}
+		
+		
+/*css code for inbox_main.html*/
+
+.containerSetsOfMessages {
+	width:inherit;
+	padding-bottom:20px;
+}
+
+	.wrapperMessageMyInbox {
+		width:170px;
+		float:left;
+	}
+	
+		.userAvatarMyInbox {
+			width:inherit;
+			padding-bottom:5px;
+		}	
+		
+	.messageInfoMyInbox {
+		width:inherit;
+	}
+	
+		.messageInfoMyInbox ul {
+			margin:0;
+			padding:0;
+			list-style:none;
+			color:#fff;
+		}
+		
+			.messageInfoMyInbox ul li a {
+				text-decoration:none;
+				color:#fff;
+				font-weight:bold;
+			}	
+			
+			.messageInfoMyInbox ul li a:hover {
+				text-decoration:underline;
+			}
+			
+		.wrapperDeleteMessages {
+			width:inherit;
+		}
+		
+			.wrapperDeleteMessages label {
+				float:left;
+				color:#fff;
+			}
+			
+			#ckechBoxDeleteMessage {
+				float:left;
+			}
+			
+/*css code for inbox_message_details.html*/
+
+.wrapperContentMessage {
+	width:600px;
+	float:left;
+	margin-left:10px;
+}
+
+.wrapperContentMessage p {
+	padding-bottom:10px;
+}
+
+.containerFormReplyDeleteMessageMyInbox {
+	width:inherit;
+}
+
+	.wrapperBtnReplyMessageMyInbox {
+		width:70px;
+		float:left;
+	}
+	
+/*css code for sliding door buttons*/
+	
+.wrapperBtnSlidingDoor {
+	height:37px;
+	float:left;
+}
+
+	.leftSide, .rightSide  {
+		width:10px;
+		height:37px;
+		float:left;
+	}
+	
+	.leftSide {
+		background:url(images/sliding_door_btn/left_side.png) no-repeat;
+	}
+	
+	.rightSide {
+		background:url(images/sliding_door_btn/right_side.png) no-repeat;
+	}
+	
+	.repeatPattern {
+		height:37px;
+		float:left;
+		padding-left:5px;
+		padding-right:5px;
+		background:url(images/sliding_door_btn/middle_side.png) repeat-x;
+	}
+	
+		.repeatPattern a {
+			color:#fff;
+			text-decoration:none;
+			position:relative;
+			top:5px;
+		}
+	
+		.repeatPattern a:hover {
+			text-decoration:underline;
+		}
+		
+		
+/*css code edit_group_settings.html*/
+.wrapperTextFieldsEditGroup {
+	width:335px;
+	float:left;
+	margin-right:40px;
+}
+
+.wrapperTextFieldEditGroupName, .wrapperTextAreaDescriptionGroupName {
+	width:inherit;
+	margin-bottom:10px;
+}
+
+.wrapperTextFieldEditGroupName label, .wrapperTextAreaDescriptionGroupName label {
+	width:80px;
+	float:left;
+	text-align:right;
+	margin-right:3px;
+	color:#fff;
+}
+
+	#textFieldEditGroupName, #textAreaDescriptionGroupName {
+		float:left;
+	}
+
+	#textFieldEditGroupName {
+		width:250px;
+		height:20px;
+		border:none;
+	}
+	
+	#textAreaDescriptionGroupName {
+		width:250px;
+		height:160px;
+		border:none;
+	}
+	
+	.columnChangeGroupDetails {
+		width:inherit;
+		margin-right:10px;
+	}
+	
+		.containerFormEditGroup {
+			width:inherit;
+		}
+		
+	.wrapperMediaApprovalGroup, .wrapperTopicApproval, .wrapperNewMediaNotification {
+		width:200px;
+		margin-left:15px;
+		float:left;
+		padding-top:25px;
+		color:#fff;
+	}
+	
+	#checkBoxMediaApproval, #checkBoxTopicApproval, #checkBoxNewMediaApproval {
+		margin-bottom:10px;
+	}
+	
+	.wrapperBtnSaveGroupSettings {
+		width:inherit;
+		text-align:right;
+	}
+	
+		#btnSaveGroupSettings {
+			margin-right:50px;
+		}
+		
+		
+/*css code send_email_group_user.html*/
+
+.containerFormSendEmailGroupUser {
+	width:inherit;
+}
+
+	.containerFormSendEmailGroupUser h1 {
+		margin:0;
+		padding:0;
+		font-size:16px;
+		padding-bottom:15px;
+	}
+	
+	.wrapperTextFieldEmailGroupUser {
+		width:290px;
+		float:left;
+		color:#fff;
+		padding-bottom:15px;
+	}
+	
+		.wrapperTextFieldEmailGroupUser label {
+			width:50px;
+		}
+	
+		#textFieldEmailGroupUser {
+			width:240px;
+			height:20px;
+			border:none;
+		}
+		
+	.wrapperDropDownMenuSelectFriends {
+		width:325px;
+		float:left;
+		color:#fff;
+		margin-right:15px;
+	}
+	
+		#dropDownSelectFriends {
+			width:inherit;
+			height:23px;
+			border:none;
+		}
+		
+	.wrapperTextAreaMessageGroupUser {
+		width:700px;
+		color:#fff;
+		padding-bottom:15px;
+	}
+	
+		#textAreaGroupUser {
+			width:inherit;
+			height:160px;
+			border:none;
+		}
+		
+	.wrapperBtnSendEmailGroupUser {
+		width:inherit;
+	}
